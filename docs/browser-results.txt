@@ -1,0 +1,4 @@
+1440px: no horizontal overflow; screenshot captured
+768px: no horizontal overflow; screenshot captured
+360px: no horizontal overflow; screenshot captured
+PASS: search, combined filters, empty state, saves across reload, dialog focus, Escape and focus return, failed fetch and retry, no JavaScript runtime exceptions

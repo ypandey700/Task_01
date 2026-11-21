@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find your first step. Explore and save fictional internships across engineering, design, marketing, and data.">
+  <meta name="theme-color" content="#174a38">
+  <title>Firststep — Find your starting point</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#opportunities">Skip to internships</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Firststep home"><span class="brand-mark" aria-hidden="true">f<span>•</span></span>firststep<span class="brand-period">.</span></a>
+    <nav aria-label="Main navigation"><a class="active" href="#opportunities" aria-current="page">Explore internships</a><button id="saved-nav" type="button">Saved <span id="saved-count">0</span></button></nav>
+    <span class="header-note">Small steps. Big futures.</span>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span></span> YOUR NEXT CHAPTER STARTS HERE</p><h1 id="hero-title">Big ambitions.<br>A <em>first step.</em></h1><p class="hero-description">Discover internships that turn your curiosity into experience. Find a role that feels like you.</p><a class="hero-link" href="#opportunities">Find your opportunity</a><div class="hero-footnote"><span class="mini-faces" aria-hidden="true"><i>A</i><i>R</i><i>M</i></span><span>For the curious. The builders. The just-getting-started.</span></div></div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="art-star">✳</span><div class="art-caption">A LITTLE EXPERIENCE.<br>A WORLD OF POSSIBILITY.</div><div class="step step-one"><span>01</span>Get curious</div><div class="step step-two"><span>02</span>Make your move</div><div class="step step-three"><span>03</span>Grow into it <b>✦</b></div><div class="art-sticker">YOUR<br>FUTURE<br>LOOKS GOOD.</div></div>
+    </section>
+    <section id="opportunities" class="board wrap" aria-labelledby="board-title">
+      <div class="section-heading"><div><p class="eyebrow">GOOD THINGS START SOMEWHERE</p><h2 id="board-title">Find your starting point<span>.</span></h2></div><p>Real possibilities. Fresh perspectives.</p></div>
+      <form id="search-form" class="search-bar" role="search"><div class="search-field"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="search">Search by role, company, or skill</label><input id="search" name="search" type="search" placeholder="Role, company, or a skill you love…" autocomplete="off"></div><div class="mode-field"><label for="mode">Work mode</label><select id="mode" name="mode"><option value="">All locations</option><option>Remote</option><option>Hybrid</option><option>On-site</option></select></div><button class="primary" type="submit">Find internships</button></form>
+      <div class="board-layout"><aside class="filters" aria-label="Filter internships"><div class="filter-title"><h3>Make it your own</h3><button id="clear" class="text-button" type="button">Reset</button></div><fieldset id="domain-filters"><legend>DOMAIN</legend></fieldset><fieldset><legend>PREFERENCES</legend><label class="check-row"><input type="checkbox" id="paid"> Paid internships only</label><label class="check-row"><input type="checkbox" id="saved-only"> Saved internships</label></fieldset><div class="sidebar-note"><span aria-hidden="true">✧</span><h3>You don’t need it all figured out.</h3><p>A little curiosity is a great place to start.</p></div></aside>
+      <div class="results"><div class="results-toolbar"><p id="result-count" role="status" aria-live="polite" aria-atomic="true">Loading opportunities…</p><div class="sort"><label for="sort">Sort by</label><select id="sort"><option value="newest">Newest first</option><option value="stipend">Highest stipend</option><option value="title">Role A–Z</option></select></div></div><div id="active-filters" class="active-filters" aria-label="Active filters"></div><div id="state" class="state" hidden></div><div id="cards" class="cards" aria-busy="true"></div><div class="board-bottom"><span class="little-star" aria-hidden="true">✳</span><p>Your next chapter could start with one application.</p></div></div></div>
+    </section>
+    <section class="closing wrap"><span aria-hidden="true">✦</span><p>Every expert was once a beginner.<br><strong>This is your somewhere.</strong></p><a href="#opportunities">Explore opportunities</a></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="./">firststep.</a><p>A practice project. All opportunities are fictional.</p><span>Built for your next beginning.</span></footer>
+  <dialog id="details" aria-labelledby="detail-title"><div class="dialog-top"><span class="eyebrow">YOUR POSSIBLE NEXT STEP</span><button id="close-dialog" class="icon-button" aria-label="Close internship details">×</button></div><div id="detail-content"></div><p class="demo-notice">This is a fictional internship for a learning project. Applications are not collected.</p><form method="dialog"><button class="primary">Back to opportunities</button></form></dialog>
+  <div id="notification" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript><p class="wrap">Please enable JavaScript to search and filter the internship listings.</p></noscript>
+</body>
+</html>

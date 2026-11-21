@@ -1,0 +1,102 @@
+[
+  {
+    "id": "INT-101",
+    "title": "Frontend Intern",
+    "company": "Layers Studio",
+    "domain": "Full Stack Development",
+    "mode": "Remote",
+    "location": "India",
+    "duration": "3 months",
+    "stipend": 15000,
+    "posted": "2026-11-20",
+    "logo": "L",
+    "color": "#eeeafc",
+    "description": "Help a small product team build thoughtful, accessible web experiences. Turn design ideas into responsive interfaces, improve existing components, and learn through supportive code reviews.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "openings": 3
+  },
+  {
+    "id": "INT-102",
+    "title": "API Engineering Intern",
+    "company": "Stackwise",
+    "domain": "Full Stack Development",
+    "mode": "Hybrid",
+    "location": "Pune",
+    "duration": "4 months",
+    "stipend": 16000,
+    "posted": "2026-11-16",
+    "logo": "≋",
+    "color": "#e6eafa",
+    "description": "Learn how reliable services are built. Work with a mentor on small API features, database queries, and automated checks in a friendly engineering team.",
+    "skills": [
+      "Node.js",
+      "SQL",
+      "Testing"
+    ],
+    "openings": 2
+  },
+  {
+    "id": "INT-103",
+    "title": "UI/UX Intern",
+    "company": "Forma",
+    "domain": "UI/UX",
+    "mode": "Remote",
+    "location": "India",
+    "duration": "6 months",
+    "stipend": 18000,
+    "posted": "2026-11-19",
+    "logo": "ƒ",
+    "color": "#f8e5dc",
+    "description": "Bring a fresh perspective to everyday product problems. Explore user journeys, prototype ideas, and work with designers to make useful digital products feel effortless.",
+    "skills": [
+      "Figma",
+      "Research",
+      "Accessibility"
+    ],
+    "openings": 1
+  },
+  {
+    "id": "INT-104",
+    "title": "Data Analyst Intern",
+    "company": "Metric Labs",
+    "domain": "Data Analytics",
+    "mode": "On-site",
+    "location": "Bengaluru",
+    "duration": "6 months",
+    "stipend": 20000,
+    "posted": "2026-11-17",
+    "logo": "m",
+    "color": "#e0edf8",
+    "description": "Find the useful story inside a dataset. Clean sample business data, build clear dashboards, and work with an analyst to communicate practical insights.",
+    "skills": [
+      "Excel",
+      "SQL",
+      "Data visualisation"
+    ],
+    "openings": 2
+  },
+  {
+    "id": "INT-105",
+    "title": "Security Operations Intern",
+    "company": "Signal Security",
+    "domain": "Cyber Security",
+    "mode": "Remote",
+    "location": "India",
+    "duration": "3 months",
+    "stipend": 14000,
+    "posted": "2026-11-13",
+    "logo": "s",
+    "color": "#dfeee5",
+    "description": "Explore defensive security with a mentor in a fictional isolated lab. Review sample logs, learn Linux fundamentals, and document observations clearly. No public systems are tested.",
+    "skills": [
+      "Linux",
+      "Logs",
+      "Networking"
+    ],
+    "openings": 1
+  }
+]
